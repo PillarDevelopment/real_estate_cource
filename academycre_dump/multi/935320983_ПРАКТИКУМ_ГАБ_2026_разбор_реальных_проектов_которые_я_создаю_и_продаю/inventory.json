@@ -1,0 +1,66 @@
+{
+  "stream_id": "935320983",
+  "title": "ПРАКТИКУМ «ГАБ 2026: разбор реальных проектов, которые я создаю и продаю»",
+  "url": "https://lk.academycre.ru/teach/control/stream/view/id/935320983?scan=47635c31-80a9-4c2e-97f0-45e8b048a44d&scan_id=fc584764-a8be-4d0a-9912-9b5b7eb52740",
+  "lesson_count": 3,
+  "lessons": [
+    {
+      "id": "347121949",
+      "title": "Вводный урок",
+      "url": "https://lk.academycre.ru/teach/control/lesson/view/id/347121949",
+      "embed_url": null,
+      "embed": null,
+      "subtitle_files": []
+    },
+    {
+      "id": "347121950",
+      "title": "День 1",
+      "url": "https://lk.academycre.ru/teach/control/lesson/view/id/347121950",
+      "embed_url": "https://kinescope.io/embed/4hqFSMErnEr65mEzyhLkak?watermark=Fskvortzov@yandex.ru",
+      "embed": {
+        "video_id": "1a9687d0-1be9-4d34-a20a-0ef08a4414e9",
+        "title": "Практикум День 1",
+        "duration": "14329.120",
+        "hls": "https://kinescope.io/1a9687d0-1be9-4d34-a20a-0ef08a4414e9/master.m3u8?expires=1775659867&sign=e16097ba520d932d",
+        "subtitles": [
+          {
+            "label": "English (Automatic)",
+            "src": "https://kinescope.io/4hqFSMErnEr65mEzyhLkak/subtitles/1773953519/87b1387d-08cb-4441-aba6-46ae086db9fd.vtt",
+            "srcLang": "en",
+            "variant": "rollup",
+            "default": true
+          }
+        ],
+        "chapters": []
+      },
+      "subtitle_files": [
+        "/Users/ivanborisov/Desktop/realestate/academycre_dump/multi/935320983_ПРАКТИКУМ_ГАБ_2026_разбор_реальных_проектов_которые_я_создаю_и_продаю/subtitles/347121950_День_1_1_en.vtt"
+      ]
+    },
+    {
+      "id": "347121951",
+      "title": "День 2",
+      "url": "https://lk.academycre.ru/teach/control/lesson/view/id/347121951",
+      "embed_url": "https://kinescope.io/embed/v9cjQy17Xg5syLkRyaAC5v?watermark=Fskvortzov@yandex.ru",
+      "embed": {
+        "video_id": "ebfdf350-2809-4237-aae7-8da09c78dab5",
+        "title": "Практикум День 2",
+        "duration": "16907.280",
+        "hls": "https://kinescope.io/ebfdf350-2809-4237-aae7-8da09c78dab5/master.m3u8?expires=1775659869&sign=082188c84496d528",
+        "subtitles": [
+          {
+            "label": "English (Automatic)",
+            "src": "https://kinescope.io/v9cjQy17Xg5syLkRyaAC5v/subtitles/1774041076/dac74955-dc1a-4964-8ef2-85a0d7440053.vtt",
+            "srcLang": "en",
+            "variant": "rollup",
+            "default": true
+          }
+        ],
+        "chapters": []
+      },
+      "subtitle_files": [
+        "/Users/ivanborisov/Desktop/realestate/academycre_dump/multi/935320983_ПРАКТИКУМ_ГАБ_2026_разбор_реальных_проектов_которые_я_создаю_и_продаю/subtitles/347121951_День_2_1_en.vtt"
+      ]
+    }
+  ]
+}

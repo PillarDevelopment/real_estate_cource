@@ -1,0 +1,29 @@
+{
+  "login": {
+    "email": "FSkvortzov@yandex.ru",
+    "user_id": 354442951
+  },
+  "courses": [
+    {
+      "stream_id": "934981977",
+      "title": "СЕРИАЛ ДЛЯ ИНВЕСТОРОВ: «ЧЕСТНЫЙ РАЗГОВОР: ЧТО Я ПОНЯЛ ЗА 17 ЛЕТ»",
+      "url": "https://lk.academycre.ru/teach/control/stream/view/id/934981977?scan=efb8b25a-19de-4f79-9dc4-0f4b0dcdef8b&scan_id=fc584764-a8be-4d0a-9912-9b5b7eb52740",
+      "lesson_count": 6,
+      "course_dir": "/Users/ivanborisov/Desktop/realestate/academycre_dump/multi/934981977_СЕРИАЛ_ДЛЯ_ИНВЕСТОРОВ_ЧЕСТНЫЙ_РАЗГОВОР_ЧТО_Я_ПОНЯЛ_ЗА_17_ЛЕТ"
+    },
+    {
+      "stream_id": "935320983",
+      "title": "ПРАКТИКУМ «ГАБ 2026: разбор реальных проектов, которые я создаю и продаю»",
+      "url": "https://lk.academycre.ru/teach/control/stream/view/id/935320983?scan=47635c31-80a9-4c2e-97f0-45e8b048a44d&scan_id=fc584764-a8be-4d0a-9912-9b5b7eb52740",
+      "lesson_count": 3,
+      "course_dir": "/Users/ivanborisov/Desktop/realestate/academycre_dump/multi/935320983_ПРАКТИКУМ_ГАБ_2026_разбор_реальных_проектов_которые_я_создаю_и_продаю"
+    },
+    {
+      "stream_id": "857759964",
+      "title": "ЗАПИСИ МЕРОПРИЯТИЙ",
+      "url": "https://lk.academycre.ru/teach/control/stream/view/id/857759964?scan=828fbff4-8b0e-40c1-8ff1-f95f4de2fc44&scan_id=fc584764-a8be-4d0a-9912-9b5b7eb52740",
+      "lesson_count": 5,
+      "course_dir": "/Users/ivanborisov/Desktop/realestate/academycre_dump/multi/857759964_ЗАПИСИ_МЕРОПРИЯТИЙ"
+    }
+  ]
+}
