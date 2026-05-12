@@ -146,6 +146,12 @@ textarea {
   filter: blur(8px);
 }
 
+.hero-copy h1 {
+  max-width: 14ch;
+  font-size: clamp(3rem, 5.2vw, 5rem);
+  line-height: 0.98;
+}
+
 .eyebrow {
   margin: 0 0 18px;
   color: var(--accent-deep);
@@ -559,6 +565,12 @@ h3 {
   h1 {
     max-width: 13ch;
     font-size: clamp(2.7rem, 13vw, 4rem);
+  }
+
+  .hero-copy h1 {
+    max-width: 15ch;
+    font-size: clamp(2.5rem, 11vw, 3.7rem);
+    line-height: 1;
   }
 
   h2 {
