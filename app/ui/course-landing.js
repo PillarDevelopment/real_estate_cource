@@ -146,7 +146,7 @@ export default function CourseLanding() {
       <header className="site-header">
         <a className="brand" href="#top">
           <span className="brand-mark">RE</span>
-          <span className="brand-text">Инвестиционная недвижимость</span>
+          <span className="brand-text">Инвест Советник</span>
         </a>
         <nav className="site-nav">
           <a href="#about">О курсе</a>
@@ -162,7 +162,11 @@ export default function CourseLanding() {
           <div className="hero-copy">
             <div>
               <p className="eyebrow">Авторский курс 2026</p>
-              <h1>Инвестиционная недвижимость в России</h1>
+              <h1>
+                <span>Инвест</span>
+                <span>Советник</span>
+              </h1>
+              <p className="hero-subtitle">Курс по инвестиционной недвижимости</p>
               <p className="hero-lead">
                 Авторский курс для брокеров, консультантов, аналитиков,
                 руководителей продаж и предпринимателей, которые строят работу
@@ -198,7 +202,7 @@ export default function CourseLanding() {
                 </li>
                 <li>
                   <strong>2026</strong>
-                  <span>актуализированная рамка</span>
+                  <span>актуально на 2026 год</span>
                 </li>
               </ul>
             </div>
@@ -408,7 +412,7 @@ export default function CourseLanding() {
 
       <footer className="site-footer">
         <p>Авторский курс по инвестиционной недвижимости</p>
-        <p>Актуализация рамки: 15.04.2026</p>
+        <p>Актуально на 2026 год</p>
       </footer>
     </div>
   );

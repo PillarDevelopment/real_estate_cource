@@ -21,7 +21,7 @@ export default function CourseShell({
             </Link>
             <div className="reader-sidebar-brand">
               <span className="reader-sidebar-kicker">Курс</span>
-              <h2>Инвестиционная недвижимость в России</h2>
+              <h2>Инвест Советник</h2>
               <p>
                 Полная программа курса с последовательной навигацией по
                 модулям и урокам.
