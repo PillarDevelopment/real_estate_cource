@@ -110,33 +110,49 @@ export default async function LessonPage({ params }) {
             <span>/</span>
             <span>{module.title}</span>
           </div>
-          <p className="reader-eyebrow">
-            Модуль {module.number} • Урок {lesson.number}
-          </p>
+          <div className="lesson-kicker-row">
+            <p className="reader-eyebrow">
+              Модуль {module.number} • Урок {lesson.number}
+            </p>
+            <div className="lesson-sequence">
+              <span>
+                #{lesson.position} из {lesson.totalLessons}
+              </span>
+            </div>
+          </div>
           <h1>{lesson.title}</h1>
           <p className="lesson-deck">{module.summary}</p>
 
-          <div className="lesson-progress">
-            <div className="lesson-progress-copy">
+          <div className="lesson-meta-grid">
+            <div className="lesson-meta-card">
+              <span>В модуле</span>
               <strong>
-                {lesson.lessonPositionInModule} из {lesson.moduleLessonCount}
+                {lesson.lessonPositionInModule} / {lesson.moduleLessonCount}
               </strong>
-              <span>уроков в этом модуле</span>
             </div>
-            <div className="lesson-progress-bar" aria-hidden="true">
-              <span style={{ width: `${progress}%` }} />
+            <div className="lesson-meta-card">
+              <span>Прогресс модуля</span>
+              <strong>{progress}%</strong>
+            </div>
+            <div className="lesson-meta-card lesson-progress-card">
+              <span>Навигация по модулю</span>
+              <div className="lesson-progress-bar" aria-hidden="true">
+                <span style={{ width: `${progress}%` }} />
+              </div>
             </div>
           </div>
         </header>
 
-        <section className="reader-article">
-          {lesson.blocks.map((block, index) => (
-            <LessonBlock
-              block={block}
-              key={`${lesson.slug}-${block.type}-${index}`}
-            />
-          ))}
-        </section>
+        <div className="reader-article-frame">
+          <section className="reader-article">
+            {lesson.blocks.map((block, index) => (
+              <LessonBlock
+                block={block}
+                key={`${lesson.slug}-${block.type}-${index}`}
+              />
+            ))}
+          </section>
+        </div>
 
         <nav className="lesson-pager">
           <div>

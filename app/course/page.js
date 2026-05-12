@@ -13,12 +13,13 @@ export default function CourseIndexPage() {
   return (
     <CourseShell modules={modules}>
       <article className="reader-page reader-overview">
-        <div className="reader-hero">
-          <p className="reader-eyebrow">Reader Interface</p>
-          <h1>Полный курс в режиме чтения</h1>
+        <header className="reader-hero">
+          <p className="reader-eyebrow">Программа курса</p>
+          <h1>Полный курс по инвестиционной недвижимости</h1>
           <p className="reader-intro">
-            Здесь уже не промо-лендинг, а сама учебная часть: уроки, боковая
-            навигация, последовательное чтение и переходы между модулями.
+            Здесь собрана полная структура курса: модули, уроки и
+            последовательное прохождение материалов от первого занятия до
+            финальных тем.
           </p>
           <div className="reader-metrics">
             <div>
@@ -30,8 +31,8 @@ export default function CourseIndexPage() {
               <span>урока</span>
             </div>
             <div>
-              <strong>2026</strong>
-              <span>актуальная редакция</span>
+              <strong>10–14</strong>
+              <span>часов с практикой</span>
             </div>
           </div>
           <div className="reader-actions">
@@ -42,7 +43,7 @@ export default function CourseIndexPage() {
               Начать с первого урока
             </Link>
           </div>
-        </div>
+        </header>
 
         <section className="reader-summary-grid">
           {modules.map((module) => (

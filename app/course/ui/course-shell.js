@@ -6,21 +6,48 @@ export default function CourseShell({
   activeModuleNumber,
   children
 }) {
+  const totalLessons = modules.reduce(
+    (sum, module) => sum + module.lessonCount,
+    0
+  );
+
   return (
     <div className="reader-shell">
       <aside className="reader-sidebar">
         <div className="reader-sidebar-inner">
-          <Link className="reader-back-link" href="/">
-            На лендинг
-          </Link>
+          <div className="reader-sidebar-top">
+            <Link className="reader-back-link" href="/">
+              На лендинг
+            </Link>
+            <div className="reader-sidebar-brand">
+              <span className="reader-sidebar-kicker">Курс</span>
+              <h2>Инвестиционная недвижимость в России</h2>
+              <p>
+                Полная программа курса с последовательной навигацией по
+                модулям и урокам.
+              </p>
+            </div>
+
+            <div className="reader-sidebar-stats">
+              <div>
+                <strong>{modules.length}</strong>
+                <span>модулей</span>
+              </div>
+              <div>
+                <strong>{totalLessons}</strong>
+                <span>урока</span>
+              </div>
+            </div>
+          </div>
+
           <Link
             className={`reader-overview-link ${
               activeLessonSlug ? "" : "is-active"
             }`}
             href="/course"
           >
-            <span>Курс</span>
-            <strong>Оглавление и карта чтения</strong>
+            <span>Оглавление</span>
+            <strong>Структура курса</strong>
           </Link>
 
           <div className="reader-module-list">
@@ -32,7 +59,7 @@ export default function CourseShell({
                 key={module.id}
               >
                 <div className="reader-module-heading">
-                  <span>Модуль {module.number}</span>
+                  <span>M{module.number}</span>
                   <h3>{module.title}</h3>
                   <p>{module.lessonCount} уроков</p>
                 </div>
